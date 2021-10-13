@@ -1,6 +1,7 @@
 # buymyguitar
 A 10-week web-dev project where I'll either have a job and a guitar, or just a guitar.
 
+
 Day -1: A Plan begins to Form (14/10)
 ------------------------------------
 Okay, so here's the backstory.

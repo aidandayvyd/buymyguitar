@@ -5,7 +5,7 @@ A 10-week web-dev project where I'll either have a job and a guitar, or just a g
 Day -1: A Plan begins to Form (14/10)
 ------------------------------------
 Okay, so here's the backstory.
-My girlfriend and I have been planning to move to London, but because of the Delta variant and a million and twelve other things going a bit wrong, we didn’t.
+My girlfriend and I were previously intending to move to London, but because of the Delta variant and a million and twelve other things going nuts, we didn’t.
 Now I’m still in my home country of New Zealand with a bunch of freed up savings.
 
 I’ve been eying up a guitar for a while.  Specifically, the Squier Classic Vibe 60’s Jazzmaster.  I tried it roughly 2 years ago and haven’t stopped thinking about it since.  I’ve been wanting to justify the purchase, but it’s always been just outside of my disposable income’s price range (as well as my own skill level) to be worth buying.

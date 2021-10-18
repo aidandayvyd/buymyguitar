@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg"
+	viewBox="0 0 24 24" width="24" height="24">
+	<title>blog</title>
+
+	<circle r="27.5%" cx="30%" cy="50%" fill="white" />
+	<ellipse rx="14%" ry="26.1%" cx="73%" cy="50%" fill="white" />
+	<ellipse rx="5%" ry="24%" cx="93.5%" cy="50%" fill="white" />
+</svg>
+

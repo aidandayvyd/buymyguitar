@@ -2,44 +2,75 @@
 
 body {
     font-family: 'Alata', sans-serif;
+    font-size: 14pt;
+    background-image: url("images/tortoise.png");
+    background-size: 50% 50%;
+    /* animation: bg-zoom 40s linear infinite; <---- use this for the eyesore bg animation*/
 }
 
-.header h1, .header p{
+#content-container{
+    /* misc */
+    padding: 20px 50px ;
+    text-align: center;
+    /* vertical center alignment */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* horizontal center alignment */
+    margin: auto;
+    width: 40%;
+
+    /* box */
+    background-color: antiquewhite;
+    border-radius: 25px;
+}
+
+#logo{
+    font-size:48pt;
     display: inline;
-    font-size: 16px;
-    line-height: 28px;
 }
 
-.header{
-    padding-top: 20px;
+#progress-bar{
+    width: 75%;
+    height: 75%;
+    padding: 40px;
 }
 
 .socials{
-    position: absolute;
-    top: 0;
-    right: 0px;
-    background-image: url(images/tortoise.png);
     padding: 10px;
-    border-radius: 0px 0px 0px 25px;
+    align-content: center;
 }
-
 .social-icon{
-    padding: 5px;
-    color: white;
+    padding: 10px;
+    border-radius: 5px;
 }
 
-.progressbar{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    text-align: center;
+/* hovering section */
+.social-icon:hover {
+    background-color: lightcoral;
+    border-radius: 10px;
+}
+.blog-link:hover{
+    background-color: lightcoral;
+    border-radius: 10px;
     padding: 5px;
 }
-/* make the guitar fit to the right side of the screen */
 
-.credits{
-    position: absolute;
-    bottom: 0;
-    text-align: center;
-    padding-bottom: 10px;
+
+/* eyesore background animation */
+@keyframes bg-zoom {
+	0% {
+		background-size: 25% 25%;
+	}
+	25% {
+		background-size: 50% 50%;
+	}
+    50% {
+		background-size: 75% 75%;
+	}
+	100% {
+		background-size: 100% 100%;
+	}
+
 }

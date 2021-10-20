@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+body {
+    font-family: 'Alata', sans-serif;
+}
+
+.header h1, .header p{
+    display: inline;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.header{
+    padding-top: 20px;
+}
+
+.socials{
+    position: absolute;
+    top: 0;
+    right: 0px;
+    background-image: url(images/tortoise.png);
+    padding: 10px;
+    border-radius: 0px 0px 0px 25px;
+}
+
+.social-icon{
+    padding: 5px;
+    color: white;
+}
+
+.progressbar{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    padding: 5px;
+}
+/* make the guitar fit to the right side of the screen */
+
+.credits{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.content{
+    /* border: 20px solid black;
+    border-image: url(images/tortoise.png);
+    border-image-slice: 10px;
+    border-image-width: auto;
+    border-image-repeat:space; */
+    background-color: lightgrey;
+    width: 70%;
+    height:max-content;
+    position: absolute;
+    left: 0;
+}

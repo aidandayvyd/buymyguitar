@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!-- 
+    This is an attempt at making the 'buymyguitar' logo without importing an image.
+    AFAIK, loading-in images slows the site down, and while bandwidth isn't really an issue compared to
+        when I was growing up - I was really inspired by the use of svg in https://carnival.withspotify.com/ 
+    
+    I might just phone this idea in for now.  There's a couple of cool things online, but I don't quite understand
+    how they work yet so I don't want to use copy-paste.
+ -->
+
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+        body {
+            font-family: 'Alata', sans-serif;
+            background-color: white;
+            color: black;
+        }
+
+        #knockout-text{
+            font-size: 36pt;
+            padding-right: 40px;
+            display: inline;
+        }
+
+        .logo {
+            font-size: 36pt;
+            padding-right: 40px;
+            display: inline;
+        }
+
+        .logo-bg {
+            position: absolute;
+
+        }
+
+        .logo-img {
+            position: absolute;
+            width: 282px;
+            height: 40pt;
+            object-fit: cover;
+            padding-top: 36pt;
+            mix-blend-mode: screen;
+        }
+
+        .logo-fr {
+            color: white;
+            position: absolute;
+            /* mix-blend-mode: multiply; */
+        }
+
+        .knockout{
+            background-image: url(images/tortoise.png);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div>
+        <h1 class="logo logo-bg">buymyguitar</h1>
+        <img class="logo logo-img" src="images/tortoise.png" />
+        <h1 class="logo logo-fr">buymyguitar</h1>
+    </div> -->
+
+    <div class="knockout">
+        <h1>
+        <svg class="knockout-text-container" width="100%" height="100%">
+          
+          <rect class="knockout-text-bg" width="100%" height="100%" fill="#fff" x="0" y="0" fill-opacity="1" mask="url(#knockout-text)" />
+          
+          <mask id="knockout-text">
+            <rect width="100%" height="100%" fill="#fff" x="0" y="0" />
+            <text x="50%" y="50%" fill="#000" text-anchor="middle">buymyguitar</text>
+          </mask>
+          
+        </svg>
+    </h1>
+      </div>
+</body>
+
+</html>

@@ -5,7 +5,7 @@ body {
     font-size: 14pt;
     background-image: url("images/tortoise.png");
     background-size: 50% 50%;
-    /* animation: bg-zoom 40s linear infinite; <---- use this for the eyesore bg animation*/
+    animation: bg-zoom 600s linear infinite; /* <---- use this for the eyesore bg animation */
 }
 
 #content-container{
@@ -19,7 +19,7 @@ body {
     transform: translate(-50%, -50%);
     /* horizontal center alignment */
     margin: auto;
-    width: 40%;
+    width: 50%;
 
     /* box */
     background-color: antiquewhite;
@@ -31,12 +31,22 @@ body {
     display: inline;
 }
 
+#blog-post-list{
+    width: fit-content;
+    text-align: left;
+    padding: 1px;
+}
+
 #progress-bar{
     width: 75%;
     height: 75%;
     padding: 40px;
 }
 
+.blog-link{
+    margin: 5px;
+    padding: 5px;
+}
 .socials{
     padding: 10px;
     align-content: center;
@@ -46,6 +56,8 @@ body {
     border-radius: 5px;
 }
 
+
+
 /* hovering section */
 .social-icon:hover {
     background-color: lightcoral;
@@ -54,7 +66,6 @@ body {
 .blog-link:hover{
     background-color: lightcoral;
     border-radius: 10px;
-    padding: 5px;
 }
 
 

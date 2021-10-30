@@ -19,7 +19,7 @@ body {
     transform: translate(-50%, -50%);
     /* horizontal center alignment */
     margin: auto;
-    width: 50%;
+    width: 60%;
 
     /* box */
     background-color: antiquewhite;
@@ -39,8 +39,8 @@ body {
 }
 
 #progress-bar{
-    width: 75%;
-    height: 75%;
+    max-width: 30%;
+    max-height: 75%;
     padding: 40px;
 }
 
@@ -92,6 +92,7 @@ body {
         padding: 25px;
         width: 75%;
         margin-top: 25%;
+        margin-bottom: 25%;
     }
     #logo{
         font-size: 36pt;

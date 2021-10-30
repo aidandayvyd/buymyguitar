@@ -31,10 +31,11 @@ body {
     display: inline;
 }
 
-#blog-post-list{
+.blog-list{
     width: fit-content;
     text-align: left;
     padding: 1px;
+    width: 50%;
 }
 
 #progress-bar{

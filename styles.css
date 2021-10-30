@@ -89,7 +89,7 @@ body {
 
 @media screen and (max-width: 800px) {
     #content-container{
-        padding: 10px 25px ;
+        padding: auto 25px;
         width: 75%;
     }
     #logo{

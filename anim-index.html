@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+    <!-- here is the information box, i like how times new roman looks so i havent altered the font -->
     <div class="infobox">
         <h1><em>aidan dayvyd</em></h1>
         <p>hobbyist animator</p>
@@ -15,23 +16,49 @@
         <p>send me mail:
             <br/>aidandayvyd [at] gmail [dot] com</p>
     </div>
-    <hr /><br />
+    <hr />
+    <!-- animaion section.  every second image is given class 'even' for the mobile view 
+         gifs and videos are inconsistent bc my personal file organization isn't, so i have some saved as video and
+         others saved as gif.  ideally, i want every animation to start playing once all are loaded in.
+    -->
     <div>
-        <img src="anim-img/gifs/chaos.gif" />
-        <img class="even" src="anim-img/gifs/coffee.gif" />
-        <img src="anim-img/gifs/eyeballs.gif" />
+        <h1><em>2021:</em></h1>
+
+        <div id="big-gif" >
+            <div id="big-gif-pic">
+                <video autoplay muted loop style="width:100%"><source src="anim-img/mp4/crosshair-animation.mp4" /></video>
+            </div>
+
+            <div id="grid-gif">
+                <div id="grid-gif-pic">
+                    <img style="width:100%" class="even" src="anim-img/gifs/chaos.gif" />
+                    <img style="width:100%"  src="anim-img/gifs/coffee.gif" />
+                </div>
+                <div>
+                    <img style="width:100%" class="even" src="anim-img/gifs/eyeballs.gif" />
+                    <video style="width:100%" autoplay muted loop ><source src="anim-img/mp4/late1.mp4" type="video/mp4"></video>
+                </div>
+            </div>
+        </div>
+
         <img class="even" src="anim-img/gifs/library.gif" />
         <img src="anim-img/gifs/thebook.gif" />
         <img class="even" src="anim-img/gifs/vampiremouth.gif" />
-        <img class="third" src="anim-img/gifs/webpageportfolio.gif" />
-        <video class="even" autoplay muted loop><source src="anim-img/mp4/late1.mp4" type="video/mp4"></video>
+        <img class="third" src="anim-img/gifs/bedtime.gif" />
+        <img class="even" src="anim-img/gifs/bedtimelines.gif" />
         <br />
+        <br />
+        <h1><em>2016-2017:</em></h1>
         <video autoplay muted loop ><source src="anim-img/mp4/dog egg.mp4" type="video/mp4"></video>
         <video class="even" autoplay muted loop ><source src="anim-img/mp4/head-morph.mp4" type="video/mp4"></video>
         <video autoplay muted loop ><source src="anim-img/mp4/let-go.mp4" type="video/mp4"></video>
         <br />
         <video class="even third" autoplay muted loop ><source src="anim-img/mp4/2017-opus.mp4" type="video/mp4"></video>
         <video autoplay muted loop ><source src="anim-img/mp4/left-tilt.mp4" type="video/mp4"></video>
+        <h1><em>2015:</em></h1>
+        <video class="third" autoplay muted loop><source src="anim-img/mp4/officemax-xmas.mp4" type="video/mp4"> </video>
+        <video class="even" autoplay muted loop><source src="anim-img/mp4/tablet.mp4" type="video/mp4" ></video>
     </div>
+    <hr />
 </body>
 </HTML>

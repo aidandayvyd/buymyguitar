@@ -10,7 +10,7 @@ img, video{
     background-color: white;
     position: fixed;
     right: 0%;
-    top: 25%;
+    top: 5%;
     padding: 10px;
     padding-right: 60px;
     box-shadow: -10px 5px 5px grey;
@@ -29,6 +29,22 @@ body {
     background-color: rgb(231, 231, 231);
 }
 
+/* control the top div */
+#big-gif{
+    display: flex;
+}
+#grid-gif{
+    width:58.5%;
+    display: flex;
+    margin-top: 2.5%;
+}
+#big-gif-pic{
+    width:28%;
+    margin-right: 24px;
+}
+#grid-gif-pic{
+    margin-right: 24px;
+}
 
 @media screen and (max-width: 800px) {
     img, video{
@@ -47,5 +63,21 @@ body {
     }
     .even{
         margin-left: 14%;
+    }
+    #big-gif{
+        display: inline;
+        height: max-content;
+    }
+    #grid-gif{
+        width: 80%;
+        display:inline-block;
+        margin-top: auto;
+    }
+    #big-gif-pic{
+        width:80%;
+        margin-right: 0px;
+    }
+    #grid-gif-pic{
+        margin-right: 0;
     }
   }

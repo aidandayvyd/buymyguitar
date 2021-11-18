@@ -39,9 +39,7 @@ body {
 }
 
 #progress-bar{
-    max-width: 30%;
-    max-height: 75%;
-    padding: 40px;
+    max-width: 48%;
 }
 
 .blog-link{
@@ -51,6 +49,7 @@ body {
 .socials{
     padding: 10px;
     align-content: center;
+
 }
 .social-icon{
     padding: 10px;

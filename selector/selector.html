@@ -1,0 +1,80 @@
+<!doctype html>
+<head>
+    <script defer src="selscript.js" type="text/javascript"></script>
+    <link href="selstyle.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spinspinspinspinspin</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+        body{
+            font-family: 'Montserrat', sans-serif;
+            background: linear-gradient(38deg, rgba(0,212,255,1) 0%, rgba(40,255,211,1) 50%, rgba(143,255,255,1) 100%) ;
+            min-height: 100vh;
+            overflow: hidden;
+
+            background-size: 200% 200%;
+	        animation: gradient 16s ease infinite;
+        }
+        h1{
+            font-size: xxx-large;
+        }
+        /* from https://codepen.io/P1N2O/pen/pyBNzX */
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+
+        #content-container{
+            /* misc */
+            padding: 20px 50px ;
+            text-align: center;
+            /* vertical center alignment */
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            /* horizontal center alignment */
+            margin: auto;
+            width: 60%;
+
+            /* box */
+            background-color: rgb(255, 255, 255, 0.6);
+            border-radius: 25px;
+        }
+
+        #clickMe{
+            font-size: larger;
+            border-radius: 20px;
+            padding: 20px 40px;
+            font-family: 'Montserrat', sans-serif;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="back-button"><a href="../index.html"><< back to homepage</a></div>
+    <div id="content-container">
+
+        <div id="selectorSection">
+            <h1 id="display" style='display:none;'></h1>
+            <h1 id="splash">Click the button to roll the dice!</h1>
+            <p style="margin-bottom: 0.5em;">(or, put your own values in the box above separated by a comma.)</p>
+            <textarea type="text" placeholder="add, some, values, like, this!" id="myInput" cols="45" rows="2" style="resize: none;font-family: 'Montserrat', sans-serif;">Code, Animation, Music, Design, Game</textarea>
+            <br/><br/>
+
+            <div id="animatedText"></div>
+            <input id="clickMe" type="button" value="click me!" onclick="getInputValue();" />
+            <!-- following line will show final result without animation:
+            <input type="text" id="printResult"> -->
+        </div>
+    </div>
+</body>
+</html>
